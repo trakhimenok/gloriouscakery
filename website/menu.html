@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Farina is modern and responsive bakery, cakery or restaurant template.">
+	<!-- change to title of your website -->
+	<title>Farina | Sweets Template</title>
+
+	<!--===  FONTS ===-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700|Playfair+Display:400,400i,700,900" rel="stylesheet">
+
+	<!--=== STYLES ===-->
+	<link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/vendors/slick.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!--=== Top image and title ===-->
+	<header class="header header--white">
+		<!--=== Desktop navigation ===-->
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-10 col-sm-7 col-lg-2">
+					<a href="index.html" class="header__logo">
+						<span class="u-font-serif">Farina</span>
+					</a>
+				</div>
+				<div class="col-sm-8 d-none d-lg-block">
+					<ul class="desktop-nav d-lg-flex justify-content-center">
+						<li class="desktop-nav__item desktop-nav__item--has-submenu">
+							<a class="desktop-nav__link" href="index.html">Home</a>
+							<ul class="desktop-nav__submenu list-bare">
+								<li><a href="/farina-bakery/index.html">Bakery</a></li>
+								<li><a href="/farina-cakery/index.html">Cakery</a></li>
+								<li><a href="/farina-restaurant/index.html">Restaurant</a></li>
+								<li><a href="/farina-sweets/index.html">Sweets</a></li>
+							</ul>
+						</li>
+						<li><a href="menu.html" class="desktop-nav__link active">Menu</a></li>
+						<li><a href="about.html" class="desktop-nav__link">About</a></li>
+						<li><a href="gallery.html" class="desktop-nav__link">Gallery</a></li>
+						<li><a href="blog.html" class="desktop-nav__link">Blog</a></li>
+						<li><a href="contact.html" class="desktop-nav__link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-1 d-lg-none">
+					<a href="#" class="mobile-nav-trigger d-lg-none js-open-mobile-nav u-color-white"><ion-icon name="menu" class="icon"></ion-icon></a>
+				</div>
+				<div class="col-sm-4 col-lg-2 d-none d-sm-block">
+					<a href="order.html" class="btn btn--full">Order</a>
+				</div>
+			</div>
+		</div>
+		<ul class="mobile-nav-list js-mobile-nav d-lg-none">
+			<li class="mobile-nav-list__item mobile-nav-list__item--has-submenu">
+				<a href="index.html" class="mobile-nav-list__link js-open-submenu">Home</a>
+				<ul class="mobile-nav-list__submenu js-submenu">
+					<li><a href="/farina-bakery/index.html">Bakery</a></li>
+					<li><a href="/farina-cakery/index.html">Cakery</a></li>
+					<li><a href="/farina-restaurant/index.html">Restaurant</a></li>
+					<li><a href="/farina-sweets/index.html">Sweets</a></li>
+				</ul>
+			</li>
+			<li><a href="menu.html" class="mobile-nav-list__link active">Menu</a></li>
+			<li><a href="about.html" class="mobile-nav-list__link">About</a></li>
+			<li><a href="gallery.html" class="mobile-nav-list__link">Gallery</a></li>
+			<li><a href="blog.html" class="mobile-nav-list__link">Blog</a></li>
+			<li><a href="contact.html" class="mobile-nav-list__link">Contact</a></li>
+			<li><a href="order.html" class="mobile-nav-list__link">Order</a></li>
+		</ul>
+		<!--== End of desktop navigation ==-->
+	</header>
+
+	<!--=== Hero ===-->
+	<div class="hero hero--md" style="background-image: url('assets/img/menu/menu-hero.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<h1 class="hero__title u-font-serif" data-aos="zoom-in">Menu</h1>
+					<p class="hero__subtitle" data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== enf of Hero ===-->
+
+	<!--=== Menu ===-->
+	<div class="menu mt-7 mb-8" id="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="menu-nav d-flex justify-content-center mt-4 mb-5">
+						<li class="mx-4 mb-3"><a href="#sweets" class="menu-nav__link u-color-primary js-menu-link">Sweets</a></li>
+						<li class="mx-4 mb-3"><a href="#pastry" class="menu-nav__link js-menu-link">Pastry</a></li>
+						<li class="mx-4 mb-3"><a href="#coffee" class="menu-nav__link js-menu-link">Coffee & Drinks</a></li>
+					</ul>
+					<div class="menu-tab js-menu-tab" id="sweets">
+						<div class="d-md-flex">
+							<ul class="menu-list mr-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cheesecake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Rapsberry / Nutella / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cupcakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Lemon / Strawberry / Peach / Chocolate / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.20</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Jaffa Cake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Classic / Sugar-Free <sup>2</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Macaroons</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Chocolate / Mint / Berries / Lemon</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Pancakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Berries Jam / Nutella / Almonds / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Berries Jar<sup>1,2</sup></h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Strawberry / Blueberry / Rapsberry</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+							</ul>
+							<ul class="menu-list ml-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Pancakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Berries Jam / Nutella / Almonds / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Berries Jar<sup>1,2</sup></h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Strawberry / Blueberry / Rapsberry</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Figs cake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Walnuts / Honey</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.60</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Wedding Cupcakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Various Types</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cheesecake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Rapsberry / Nutella / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cupcakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Lemon / Strawberry / Peach / Chocolate / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.20</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-tab js-menu-tab" id="pastry">
+						<div class="d-md-flex">
+							<ul class="menu-list mr-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Muffins</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Blueberry / Banana Nut / Cappuccino / Chocolate Chai / Lemon Poppy Seed</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Croissants</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Chocolate / Peanut Butter & Chocolate / Sriracha / Pretzel<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.20</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Sweet Rolls</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Cinnamon / Sticky Bun / Schnecken </span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+							</ul>
+							<ul class="menu-list ml-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cookies</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Chocolate Chip<sup>1</sup> / Monster / Cap’N Crunch / Red Velvet<sup>1,2</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Pies</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Pecan / Pumpkin / Caramel / Raw <sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$5.20</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Bars</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Snickers / Pecan / Brownie / Vegan Brownie / Gluten-Free Rice Krispy<sup>1,2</sup> </span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.20</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-tab js-menu-tab" id="coffee">
+						<div class="d-md-flex">
+							<ul class="menu-list mr-md-4">
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Espresso</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Capuccino</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Latte</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$1.85</span>
+									</div>
+								</li>
+							</ul>
+							<ul class="menu-list ml-md-4">
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Hot Chocolate</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Tea</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Lemonade</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.05</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="text-center u-text-small u-color-grey">
+						<p>1 - Gluten Free &nbsp; &nbsp; 2 - Sugar free</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== enf of Menu ===-->
+
+	<!--=== Footer Call to Action ===-->
+	<div class="footer-cta" style="background-image:url('assets/img/order-img.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 offset-sm-1 text-center u-color-white">
+					<h4 class="footer-cta__title u-font-serif" data-aos="fade-up">Like our products?</h4>
+					<p class="footer-cta__subtitle" data-aos="fade-up" data-aos-delay="100">Order for yourself or send as gift for your loved ones.</p>
+					<a href="order.html" class="btn btn--big" data-aos="fade-up" data-aos-delay="100">Order</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Footer Call to Action ===-->
+
+	<!--=== Footer ===-->
+	<footer class="footer u-bg-secondary">
+		<div class="u-bg-secondary footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">LOREM IPSUM</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">QUICK LINKS</h6>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">INFO</h6>
+							<div class="mb-2">
+								<p><span>Mon-Fri &nbsp;&nbsp;</span>09:00 - 21:00</p>
+								<p><span>Sat-Sun &nbsp;&nbsp;</span>11:00 - 23:00</p>
+							</div>
+							<p>59 Copthorne Way</p>
+							<p>Camghouran, UK</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">FOLLOW US</h6>
+							<ul class="footer-widget__social-list">
+								<!-- Replace # with your Instagram profile URL -->
+								<li><a href="#"><ion-icon name="logo-instagram" class="icon icon--grey"></ion-icon></a></li>
+								<!-- Replace # with your Facebook profile URL -->
+								<li><a href="#"><ion-icon name="logo-facebook" class="icon icon--grey"></ion-icon></a></li>
+								<!-- Replace # with your Twitter profile URL -->
+								<li><a href="#"><ion-icon name="logo-twitter" class="icon icon--grey"></ion-icon></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="u-bg-primary text-center pt-3 pb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="footer__copy">All rights reserved &copy; 2019 / Farina by ThemeDiv</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--== End of footer ==-->
+
+
+<!--===  SCRIPTS ===-->
+<script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="assets/js/vendors/bootstrap.min.js"></script>
+<script src="assets/js/vendors/slick.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

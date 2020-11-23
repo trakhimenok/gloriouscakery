@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Farina is modern and responsive bakery, cakery or restaurant template.">
+	<!-- change to title of your website -->
+	<title>GloriousCakery.ie - delicious sweets</title>
+	<link rel="canonical" href="https://gloriouscakery.ie/" />
+
+	<!--===  FONTS ===-->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700|Playfair+Display:400,400i,700,900" rel="stylesheet">
+
+	<!--=== STYLES ===-->
+	<link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/vendors/slick.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header class="header header--white">
+		<!--=== Desktop navigation ===-->
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-10 col-sm-7 col-lg-2">
+					<a href="./" class="header__logo">
+						<span class="u-font-serif" style="text-transform: none">GloriousCakery.ie</span>
+					</a>
+				</div>
+				<div class="col-sm-8 d-none d-lg-block">
+					<ul class="desktop-nav d-lg-flex justify-content-center">
+						<li class="desktop-nav__item desktop-nav__item--has-submenu active">
+							<a class="desktop-nav__link active" href="./">Home</a>
+							<!--ul class="desktop-nav__submenu list-bare">
+								<li><a href="/farina-bakery/index.html">Bakery</a></li>
+								<li><a href="/farina-cakery/index.html">Cakery</a></li>
+								<li><a href="/farina-restaurant/index.html">Restaurant</a></li>
+								<li><a href="/farina-sweets/index.html">Sweets</a></li>
+							</ul-->
+						</li>
+						<li><a href="menu.html" class="desktop-nav__link">Menu</a></li>
+						<li><a href="about.html" class="desktop-nav__link">About</a></li>
+						<li><a href="gallery.html" class="desktop-nav__link">Gallery</a></li>
+						<!--li><a href="blog.html" class="desktop-nav__link">Blog</a></li-->
+						<li><a href="contact.html" class="desktop-nav__link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-1 d-lg-none">
+					<a href="#" class="mobile-nav-trigger d-lg-none js-open-mobile-nav u-color-white"><ion-icon name="menu" class="icon"></ion-icon></a>
+				</div>
+				<div class="col-sm-4 col-lg-2 d-none d-sm-block">
+					<a href="order.html" class="btn btn--ghost btn--full">Order</a>
+				</div>
+			</div>
+		</div>
+		<!--=== Mobile navigation ===-->
+		<ul class="mobile-nav-list js-mobile-nav d-lg-none">
+			<li class="mobile-nav-list__item mobile-nav-list__item--has-submenu">
+				<a href="index.html" class="mobile-nav-list__link js-open-submenu">Home</a>
+				<ul class="mobile-nav-list__submenu js-submenu">
+					<li><a href="/farina-bakery/index.html">Bakery</a></li>
+					<li><a href="/farina-cakery/index.html">Cakery</a></li>
+					<li><a href="/farina-restaurant/index.html">Restaurant</a></li>
+					<li><a href="/farina-sweets/index.html" class="active">Sweets</a></li>
+				</ul>
+			</li>
+			<li><a href="menu.html" class="mobile-nav-list__link">Menu</a></li>
+			<li><a href="about.html" class="mobile-nav-list__link">About</a></li>
+			<li><a href="gallery.html" class="mobile-nav-list__link">Gallery</a></li>
+			<li><a href="blog.html" class="mobile-nav-list__link">Blog</a></li>
+			<li><a href="contact.html" class="mobile-nav-list__link">Contact</a></li>
+			<li><a href="order.html" class="mobile-nav-list__link">Order</a></li>
+		</ul>
+	</header>
+
+	<!--=== Hero ===-->
+	<div class="hero hero--xl u-bg-p-bottom" style="background-image: url('assets/img/home/home-hero.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 text-center">
+					<h1 class="hero__title u-font-serif" data-aos="zoom-in">Color your day with our sweets!</h1>
+					<p class="hero__subtitle mb-5" data-aos="zoom-in" data-aos-delay="100">Delicious cakes by Kseniia Paltseva.</p>
+					<a href="#menu" class="btn js-on-page-nav" data-aos="zoom-in" data-aos-delay="100">Check Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Hero ===-->
+
+	<!--=== Story ===-->
+	<div class="mt-7 mb-7">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md-6 d-none d-md-block">
+					<img src="assets/img/home/merengue_rulet.jpg" data-aos="zoom-in-right" />
+				</div>
+				<div class="col-md-6">
+					<div class="story-block pl-md-4" data-aos="zoom-in-left" data-aos="zoom-in-left">
+						<p class="story-block__upper-title" >Our Story</p>
+						<h2 class="story-block__title u-font-serif">
+							Started as a hobby
+							<br>
+							become a lifestyle business
+						</h2>
+						<p class="u-color-grey">
+							5 years back I moved to Ireland from Russia and loved it here.
+							I did not missed much. Especially snow & winter.
+						</p>
+						<p>
+							What I did miss is taste of sweets that are popular in Russia.
+							Don't get me wrong there is lot's of really great deserts out there in Ireland.
+							But not much of what I get used to from my childhood.
+						</p>
+						<p>
+							After giving up on finding it in shops I took a remote course in bakery.
+							And here we are.
+						</p>
+						<p>
+							Order one of my cakes if you wonder what made me to become a professional cakes maker!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Story ===-->
+
+	<!--=== Slider: Popular items ===-->
+	<div class="slider-section u-bg-secondary mt-7 mb-7">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2 class="u-h1 u-font-serif u-weight-700 mb-3">Most Popular</h2>
+					<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+			</div>
+			<div class="row js-slider">
+				<div class="col-md-4 js-slide">
+					<div class="slider-item" style="background-image: url('assets/img/home/chocolate_rulet.jpg');">
+						<span>Chocolate roulade</span>
+					</div>
+				</div>
+				<div class="col-md-4 js-slide">
+					<div class="slider-item" style="background-image: url('assets/img/home/chocolate_cake.jpg');">
+						<span>Chocolate cake</span>
+					</div>
+				</div>
+				<div class="col-md-4 js-slide">
+					<div class="slider-item" style="background-image: url('assets/img/home/birthday_cake.jpg');">
+						<span>Birthday cake</span>
+					</div>
+				</div>
+				<div class="col-md-4 js-slide">
+					<div class="slider-item" style="background-image: url('assets/img/home/napoleon_cake.jpg');">
+						<span>Napoleone cake</span>
+					</div>
+				</div>
+				<div class="col-md-4 js-slide">
+					<div class="slider-item" style="background-image: url('assets/img/home/merengue_rulet.jpg');">
+						<span>Merengue roulade</span>
+					</div>
+				</div>
+				<span class="slider-arrow slider-arrow--prev js-arrow-prev">
+					<svg width="40" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 10"><path fill="none" stroke="#dcb36e" d="M5 10L1 5l4-5M40 5H1.5"/></svg>
+				</span>
+				<span class="slider-arrow slider-arrow--next js-arrow-next">
+					<svg width="40" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 10"><path fill="none" stroke="#dcb36e" d="M36 0l4 5-4 5M1 5h38.5"/></svg>
+				</span>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Slider: Popular items ===-->
+
+	<!--=== Menu ===-->
+	<div class="menu mt-7 mb-8" id="menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="u-h1 u-font-serif u-weight-700 text-center mb-4">Menu</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="menu-nav d-flex justify-content-center mt-4 mb-5">
+						<li class="mx-4 mb-3"><a href="#sweets" class="menu-nav__link u-color-primary js-menu-link">Sweets</a></li>
+						<li class="mx-4 mb-3"><a href="#pastry" class="menu-nav__link js-menu-link">Pastry</a></li>
+						<li class="mx-4 mb-3"><a href="#coffee" class="menu-nav__link js-menu-link">Coffee & Drinks</a></li>
+					</ul>
+					<div class="menu-tab js-menu-tab" id="sweets">
+						<div class="d-md-flex">
+							<ul class="menu-list mr-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cheesecake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Rapsberry / Nutella / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cupcakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Lemon / Strawberry / Peach / Chocolate / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.20</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Jaffa Cake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Classic / Sugar-Free <sup>2</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Macaroons</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Chocolate / Mint / Berries / Lemon</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+							</ul>
+							<ul class="menu-list ml-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Pancakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Berries Jam / Nutella / Almonds / Gluten-Free<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Berries Jar<sup>1,2</sup></h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Strawberry / Blueberry / Rapsberry</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Figs cake</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Walnuts / Honey</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.60</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Wedding Cupcakes</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Various Types</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.00</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-tab js-menu-tab" id="pastry">
+						<div class="d-md-flex">
+							<ul class="menu-list mr-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Muffins</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Blueberry / Banana Nut / Cappuccino / Chocolate Chai / Lemon Poppy Seed</span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Croissants</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Chocolate / Peanut Butter & Chocolate / Sriracha / Pretzel<sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.20</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Sweet Rolls</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Cinnamon / Sticky Bun / Schnecken </span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.00</span>
+									</div>
+								</li>
+							</ul>
+							<ul class="menu-list ml-md-4">
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Cookies</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Chocolate Chip<sup>1</sup> / Monster / Cap’N Crunch / Red Velvet<sup>1,2</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.00</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Pies</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Pecan / Pumpkin / Caramel / Raw <sup>1</sup></span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$5.20</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<h4 class="menu-list-item__title u-font-serif">Bars</h4>
+									<div class="d-flex">
+										<span class="menu-list-item__desc font-italic">Snickers / Pecan / Brownie / Vegan Brownie / Gluten-Free Rice Krispy<sup>1,2</sup> </span>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.20</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="menu-tab js-menu-tab" id="coffee">
+						<div class="d-md-flex">
+							<ul class="menu-list mr-md-4">
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Espresso</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Capuccino</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Latte</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$1.85</span>
+									</div>
+								</li>
+							</ul>
+							<ul class="menu-list ml-md-4">
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Hot Chocolate</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$2.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Tea</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$3.15</span>
+									</div>
+								</li>
+								<li class="menu-list-item">
+									<div class="d-flex">
+										<h4 class="menu-list-item__title u-font-serif">Lemonade</h4>
+										<span class="menu-list-item__dots"></span>
+										<span class="menu-list-item__price">$4.05</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="text-center u-text-small u-color-grey">
+						<p>1 - Gluten Free &nbsp; &nbsp; 2 - Sugar free</p>
+					</div>
+					<div class="text-center mt-5">
+						<a href="menu.html" class="btn">See Full Menu</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Menu ===-->
+
+	<!--=== Testimonials ===-->
+	<div class="u-bg-cover u-bg-p-top" style="background-image: url('assets/img/home/testimonials.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 offset-sm-1 pt-6">
+					<h3 class="u-font-serif u-h1 u-weight-700 text-center">What my customers say</h3>
+					<div class="testimonials js-slider-1 text-center pt-5 pb-6">
+						<div class="testimonial js-slide">
+							<p class="testimonial__quote u-font-serif">"Delicious Napoleon cake! Just like my grandma did!"</p>
+							<hr class="short-line short-line--black mt-4 mb-4">
+							<p class="testimonial__person">Svetlana</p>
+						</div>
+						<div class="testimonial js-slide">
+							<p class="testimonial__quote u-font-serif">"Thank you so much, dear fairy godmother! ❤️😘"</p>
+							<hr class="short-line short-line--black mt-4 mb-4">
+							<p class="testimonial__person">Ekaterina K.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Testimonials ===-->
+
+	<!--=== Featured blog posts ===-->
+	<div class="mt-7 mb-7">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h2 class="u-h1 u-weight-700 u-font-serif mb-3">Blog</h2>
+					<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mb-4">
+					<a href="blog-post.html" class="article-card" data-aos="fade-up">
+						<div class="article-card__img-wrapper">
+							<div class="article-card__img" style="background-image:url('assets/img/home/article1.jpg')"></div>
+						</div>
+						<h3 class="u-h5 u-font-serif mt-3">Small treats go long way</h3>
+						<p class="article-card__date">June 23, 2018</p>
+					</a>
+				</div>
+
+				<div class="col-md-4 mb-4">
+					<a href="blog-post.html" class="article-card" data-aos="fade-up" data-aos-delay="100">
+						<div class="article-card__img-wrapper">
+							<div class="article-card__img" style="background-image:url('assets/img/home/article2.jpg')"></div>
+						</div>
+						<h3 class="u-h5 u-font-serif mt-3">Magic of fresh fruits in cake decorating</h3>
+						<p class="article-card__date">June 23, 2018</p>
+					</a>
+				</div>
+
+				<div class="col-md-4 mb-4">
+					<a href="blog-post.html" class="article-card" data-aos="fade-up" data-aos-delay="200">
+						<div class="article-card__img-wrapper">
+							<div class="article-card__img" style="background-image:url('assets/img/home/article3.jpg')"></div>
+						</div>
+						<h3 class="u-h5 u-font-serif mt-3">My kitchen & how I cook.</h3>
+						<p class="article-card__date">June 23, 2018</p>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="text-center mt-5">
+						<a href="blog.html" class="btn" data-aos="fade-up" data-aos-delay="200">View All Posts</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Featured blog posts ===-->
+
+	<!--=== Footer Call to Action ===-->
+	<div class="footer-cta" style="background-image:url('assets/img/order-img.jpg')">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 offset-sm-1 text-center u-color-white">
+					<h4 class="footer-cta__title u-font-serif" data-aos="fade-up">Like our products?</h4>
+					<p class="footer-cta__subtitle" data-aos="fade-up" data-aos-delay="100">Order for yourself or send as gift for your loved ones.</p>
+					<a href="order.html" class="btn btn--big" data-aos="fade-up" data-aos-delay="100">Order</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--=== end of Footer Call to Action ===-->
+
+	<!--=== Footer ===-->
+	<footer class="footer u-bg-secondary">
+		<div class="u-bg-secondary footer-widgets">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">GloriousCakes.ie</h6>
+							<p>Delicious & extraordinary cakes.</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">QUICK LINKS</h6>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">INFO</h6>
+							<div class="mb-2">
+								<p><span>Mon-Fri &nbsp;&nbsp;</span>09:00 - 21:00</p>
+								<p><span>Sat-Sun &nbsp;&nbsp;</span>10:00 - 13:00</p>
+							</div>
+							<p>Corbally, Limerick</p>
+							<p>Ireland</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer-widget">
+							<h6 class="footer-widget__title">FOLLOW US</h6>
+							<ul class="footer-widget__social-list">
+								<!-- Replace # with your Instagram profile URL -->
+								<li><a href="https://www.instagram.com/kspaltseva/" target="_blank"><ion-icon name="logo-instagram" class="icon icon--grey"></ion-icon></a></li>
+								<!-- Replace # with your Facebook profile URL -->
+								<li><a href="#"><ion-icon name="logo-facebook" class="icon icon--grey"></ion-icon></a></li>
+								<!-- Replace # with your Twitter profile URL -->
+								<li><a href="#"><ion-icon name="logo-twitter" class="icon icon--grey"></ion-icon></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="u-bg-primary text-center pt-3 pb-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<p class="footer__copy">All rights reserved &copy; 2020 / Kseniia Paltseva</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--== End of footer ==-->
+
+
+<!--===  SCRIPTS ===-->
+<script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="assets/js/vendors/bootstrap.min.js"></script>
+<script src="assets/js/vendors/slick.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>

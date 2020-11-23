@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Farina is modern and responsive bakery, cakery or restaurant template.">
+	<!-- change to title of your website -->
+	<title>Farina - Documentation</title>
+
+	<!--===============  FONTS ===============-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/css/vendors/bootstrap.min.css">
+	<style>
+	body {
+		font-family: 'Montserrat', sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		position: relative;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto Slab', serif;
+	}
+
+	h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 28px;
+		margin-bottom: 34px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	h6 {
+		font-size: 14px;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	ul li {
+		margin-bottom: 10px;
+	}
+
+	a {
+		color: #f14c4c;
+		padding-bottom: 2px;
+		border-bottom: 1px solid #f14c4c;
+	}
+
+	a:hover,
+	a:focus {
+		color: #f14c4c;
+		text-decoration: none;
+	}
+
+	section {
+		margin: 60px 0;
+		padding-bottom: 50px;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	section.no-border {
+		border-bottom: 0;
+	}
+
+	code {
+		background: #fbf2f5;
+		display: block;
+		padding: 30px;
+		margin-bottom: 20px;
+		color: #575755;
+	}
+
+	pre {
+		color: #575755;
+		margin-bottom: 0;
+		background: #fbf2f5;
+	}
+
+	pre code {
+		padding: 10px 30px;
+		margin-bottom: 0;
+	}
+
+	mark {
+		background-color: #edcf5f;
+		padding: 1px 12px;
+		display: inline-block;
+	}
+
+	p span {
+		font-weight: 600;
+	}
+
+	ul {
+		margin: 10px 0 40px;
+	}
+
+	header, footer {
+		padding: 50px 0;
+		background: #fbf2f5;
+		color: #575755;
+	}
+
+	.u-m-b-4 {
+		margin-bottom: 40px;
+	}
+
+	.u-decoration-underline {
+		display: inline-block;
+		border-bottom: 2px solid black;
+		padding-bottom: 5px;
+	}
+
+	.section-title {
+		margin-bottom: 60px;
+	}
+
+	.section-subtitle {
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<h5 class="text-center">Farina - Bakery / Cakery / Restaurant Template</h5>
+		<h1 class="text-center mt-5">Documentation</h1>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Add your images</h2>
+					<h4 class="u-decoration-underline">Add your image as background image</h4>
+					<p>You will notice that lot of images are added as background image inside HTML files. To change those images path to your own, just add it to the highlighted part below:</p>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<code>
+						 &lt;div class="hero hero--xl u-bg-p-bottom" style="background-image: url(<mark>'assets/img/home/home-hero.jpg'</mark>);"&gt;
+					</code>
+					<br>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<p>Notice in the code above class:</p> 
+					<code>u-bg-p-bottom</code>
+					<p>It is helper class that tells element to mainly show the bottom part of the image. Since background images act differently, and not entire part of image is shown, you might need to use different positions to achieve look you want. If you need your image to show center part, use class: </p>
+					<code>u-bg-p-center</code> 
+					<p>If you want to show mainly top part use:</p> 
+					<code>u-bg-p-top</code>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 50px;">
+				<div class="col-lg-8 offset-lg-2">
+					<h4 class="u-decoration-underline">Add your image inside &lt;img &gt; tag</h4>
+					<p>To add path of your image just replace marked code with your path:</p>
+					<code>
+						Example:	&lt;img src="<mark>assets/img/home/story-img.jpg</mark>" /&gt;
+					</code>
+					<br>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Set your e-mail to Contact form</h2>
+					<p>1. Open <span>contact.php</span> inside <span>php</span> folder.</p>
+					<p>2. Go to line 9 and add your e-mail.</p>
+					<code>
+						$to = '<mark>support@themediv.com</mark>'; // Write your e-mail here
+					</code>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Set your e-mail to Order form</h2>
+					<p>1. Open <span>order.php</span> inside <span>php</span> folder.</p>
+					<p>2. Go to line 11 and add your e-mail.</p>
+					<code>
+						$to = '<mark>support@themediv.com</mark>'; // Write your e-mail here
+					</code>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Add your social profiles</h2>
+					<p>In all HTML files scroll down to Footer section and find following code:</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<pre>
+						<code>
+&lt;ul class="footer-widget__social-list">
+	&lt!-- Replace # with your Instagram profile URL --&gt;
+	&lt;li&gt;&lt;a href="<mark>#</mark>"&gt;&lt;ion-icon name="logo-instagram" class="icon icon--grey"&gt;&lt;/ion-icon&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt!-- Replace # with your Facebook profile URL --&gt;
+	&lt;li&gt;&lt;a href="<mark>#</mark>"&gt;&lt;ion-icon name="logo-facebook" class="icon icon--grey"&gt;&lt;/ion-icon&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt!-- Replace # with your Twitter profile URL --&gt;
+	&lt;li&gt;&lt;a href="<mark>#</mark>"&gt;&lt;ion-icon name="logo-twitter" class="icon icon--grey"&gt;&lt;/ion-icon&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+						</code>
+					</pre>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Use Ion Icons</h2>
+					<p>Ion icons documentation: <a href="https://ionicons.com/" target="_blank">https://ionicons.com/</a></p>
+					<p>Example of usage:</p>
+					<code>
+						&lt;ion-icon name="logo-instagram" class="icon icon--grey"&gt;&lt;/ion-icon&gt;
+					</code>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Change colour scheme</h2>
+					<p>Open <span>style.css</span> located inside <span>assets/css </span>folder</span> and on Line 8, just above table of content you will find:</p>
+					<code>
+						Primary color:			#dcb36e <br>
+						Secondary color: 		#faf8f1 <br>
+						Article border color: 	#f3edde
+					</code>
+					<p>In entire file find all occurrences of either/and <span>#dcb36e</span>, <span>#faf8f1</span> and replace with your desired colour in HEX format.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Remove/Add animations on scroll</h2>
+					<p class="text-center">Please check documentation here: <a href="https://michalsnik.github.io/aos/" target="_blank">https://michalsnik.github.io/aos/</a> </p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="no-border">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center section-title">Credits</h2>
+					<ul>
+						<li><a href="https://getbootstrap.com/" target="_blank">Bootstrap 4</a></li>
+						<li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+						<li><a href="https://imagesloaded.desandro.com/" target="_blank">ImagesLoaded</a></li>
+						<li><a href="https://masonry.desandro.com/" target="_blank">Masonry grid</a></li>
+						<li><a href="https://kenwheeler.github.io/slick/" target="_blank">Slick slider</a></li>
+						<li><a href="https://ionicons.com/" target="_blank">Ion Icons</a></li>
+						<li><a href="https://michalsnik.github.io/aos/" target="_blank">AOS</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="text-center">
+		<h4>Thank you for purchasing Farina - Bakery / Cakery / Restaurant template!</h4>
+		<p>Copyright &copy; Theme Div</p>
+	</footer>
+</body>
+</html>
