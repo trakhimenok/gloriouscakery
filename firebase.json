@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "gloriouscakery",
-    "public": "website",
+    "public": "hugosite/public",
     "ignore": [
       "firebase.json",
       "**/.*",

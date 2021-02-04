@@ -4,7 +4,7 @@ story:
   title : "My Story"
   subtitle1: "Started as a hobby"
   subtitle2: "become a passion."
-  image : "images/products/deserts/meringue_rulet.jpg"
+  image : "photos/deserts/meringue_rulet.jpg"
   text:
     - "5 years back I moved to Ireland from Russia and loved it here. Except from friends & family I did not missed much. Especially snow & winter."
     - "What I did miss is taste of sweets that are popular in Russia. Don't get me wrong there &mdash; there is lots of great deserts in Ireland! But not much of what I liked so much since my childhood."
@@ -27,16 +27,6 @@ banner:
   video:
     enable : true
     videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
-
-########################## About ##############################
-about:
-  enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
-  image : "images/about.png"
-
 
 ###################### Call to action ########################
 cta:

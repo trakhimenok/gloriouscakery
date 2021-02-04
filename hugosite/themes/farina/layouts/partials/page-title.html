@@ -1,15 +1,18 @@
 <section class="section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-12">
+      <div class="col-9">
         <h2>{{ .Title }}</h2>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent p-0">
-            <li class="breadcrumb-item"><a class="text-dark" href="{{ site.BaseURL }}">{{ site.Params.home }}</a></li>
+            <li class="breadcrumb-item"><a class="text-dark" href="{{ .Site.LanguagePrefix }}">{{ site.Params.home }}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
           </ol>
         </nav>
       </div>
+      {{ if .Params.price}}
+      <!-- show price? -->
+      {{ end }}
     </div>
   </div>
 </section>

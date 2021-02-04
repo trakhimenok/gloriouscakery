@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.com"
+baseURL = "https://gloriouscakery.ie"
 languageCode = "en"
-title = "Hargo | Hugo Ecommerce Site"
+title = "Glorious build to order cakes in Limerick"
 theme = "farina"
 summaryLength = "20"
 paginate = 10
@@ -9,11 +9,32 @@ disqusShortname = ""
 
 [languages]
   [languages.en]
+  [languages.en.params]
+    home = "Home"
+
 #    contentDir = "content/english"
-    weight = 10
+    weight = 20
+############################## navigation ###############################
+
+      [[languages.en.menu.main]]
+      name = "Products"
+      URL = "products"
+      weight = 1
+
+      [[languages.en.menu.main]]
+      name = "Contact"
+      URL = "contact"
+      weight = 4
   [languages.ru]
+    [languages.ru.params]
+    location = "Лимерик, Ирландия"
+    home = "Главная"
 #    contentDir = "content/ru"
     weight = 10
+    [[languages.ru.menu.main]]
+    name = "Ассортимент"
+    URL = "products"
+    weight = 1
 
 ############################# Plugins ##############################
 [params.plugins]
@@ -37,28 +58,6 @@ disqusShortname = ""
   link = "plugins/google-map/gmap.js"
 
 
-############################## navigation ###############################
-[menu]
-
-  [[menu.main]]
-  name = "Products"
-  URL = "products"
-  weight = 1
-
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 2
-
-  [[menu.main]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 3
-
-  [[menu.main]]
-  name = "Contact"
-  URL = "contact"
-  weight = 4
 
   ############# footer menu #############
   [[menu.footer]]
@@ -90,7 +89,6 @@ disqusShortname = ""
 #################### default parameters ################################
 [params]
 logo = "images/logo.png"
-home = "Home"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
@@ -102,14 +100,14 @@ mapMarker = "images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "Dhaka, Bangladedsh"
+# mobile = "0124857985320"
+email = "kseniia@gloriouscakery.ie"
+location = "Limerick, Ireland"
 # copyright
 copyright = "| Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved |"
 # Snipcart Credentials
 snipcartApiKey = "M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"
-currencySymbol = "$"
+currencySymbol = "€"
 
   # Preloader
   [params.preloader]
@@ -119,30 +117,32 @@ currencySymbol = "$"
   # Product Rating
   # it works with https://rating-widget.com/ , you will get the ID and publicKey after creating your account there.
   [params.rating]
-  enable = true
+  enable = false
   websiteID = "444334"
   publicKey = "811cf0927332bf51f2e12f84608594ac"
 
   # Social Site
   [[params.social]]
+  title = "Facebook"
   icon = "ti-facebook"
-  link = "#"
+  link = "https://www.facebook.com/kspaltseva"
+
+#  [[params.social]]
+#  icon = "ti-twitter-alt"
+#  link = "#"
+
+#  [[params.social]]
+#  icon = "ti-youtube"
+#  link = "#"
 
   [[params.social]]
-  icon = "ti-twitter-alt"
-  link = "#"
-
-  [[params.social]]
-  icon = "ti-youtube"
-  link = "#"
-
-  [[params.social]]
+  title = "Instagran"
   icon = "ti-instagram"
-  link = "#"
+  link = "https://www.instagram.com/kspaltseva/"
 
-  [[params.social]]
-  icon = "ti-pinterest"
-  link = "#"
+#  [[params.social]]
+#  icon = "ti-pinterest"
+#  link = "#"
 
   # Contact Form
   [params.contact]

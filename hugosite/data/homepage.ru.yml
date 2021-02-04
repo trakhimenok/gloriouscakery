@@ -1,0 +1,11 @@
+############################ story ##########################
+story:
+  enable : true
+  title : "Моя история"
+  subtitle1: "Началось как хобби"
+  subtitle2: "стало страстью."
+  image : "photos/deserts/meringue_rulet.jpg"
+  text:
+    - "5 years back I moved to Ireland from Russia and loved it here. Except from friends & family I did not missed much. Especially snow & winter."
+    - "What I did miss is taste of sweets that are popular in Russia. Don't get me wrong there &mdash; there is lots of great deserts in Ireland! But not much of what I liked so much since my childhood."
+    - "After giving up on finding that in shops I took a remote course in bakery. Started to bake for family & friends. And for friends of friends. And here we are &mdash; on this website of mine."
