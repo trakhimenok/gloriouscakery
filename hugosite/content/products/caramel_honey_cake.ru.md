@@ -18,19 +18,14 @@ type: "products"
 
 ## Product Images
 mainImage:
-    url: photos/deserts/napoleon_cake-1.jpg
-    title: Торт клубнично-фисташковый
-
-images:
-    - url: photos/deserts/napoleon_cake-1.jpg
-      title: Кусок клубнично-фисташкового торта
+    url: photos/deserts/caramel_honey-1.jpg
+    title: Торт-пирожное Карамельный Медовик
 
 ## Ingredients
 ingredients:
     main:
         - карамельно-медовые коржи
         - заварной крем с маскарпоне
-
 ---
 
 Особенность приготовления карамельного Медовика кроется в особом способе замешивания теста.

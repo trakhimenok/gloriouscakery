@@ -1,25 +1,25 @@
 ---
-title: "Клубнично-кокосовый"
+title: "Чёрный бархат"
 kind: "торт"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 
 ## meta description
-description : "Нежность с нотками вкуса тропиков"
+description : "Бархатная нежность"
 
 mass:
 price: "50"
 
 ## Product Short Description
-shortDescription: "Нежность с нотками вкуса тропиков"
+shortDescription: "Бархатная нежность"
 
 ## Type must be "products"
 type: "products"
 
 ## Product Images
 mainImage:
-    url: photos/deserts/black_velvet-1.jpg
-    title: Торт клубнично-фисташковый
+    url: photos/deserts/black_velvet-2.jpg
+    title: Торт Чёрный бархат
 
 ## Ingredients
 ingredients:
@@ -27,7 +27,6 @@ ingredients:
         - шифоновый шоколадный бисквит
         - клубничное компоте
         - сливочно творожный крем
-
 ---
 
 Пока нет описания.

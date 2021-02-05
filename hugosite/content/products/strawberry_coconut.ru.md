@@ -18,7 +18,7 @@ type: "products"
 
 ## Product Images
 mainImage:
-    url: photos/deserts/strawberry_coconut-1.jpg
+    url: photos/deserts/strawberry_coconut-2.jpg
     title: Торт клубнично-фисташковый
 
 ## Ingredients
