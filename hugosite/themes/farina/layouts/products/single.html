@@ -42,11 +42,7 @@
 
           <div class="col-6 my-4">
             <h2>Вес</h2>
-            {% if .Params.mass %}
-              <p>{{ .Params.mass }}</p>
-            {% else %}
-              <p>не указан</p>
-            {% end %}
+            {{ if .Params.mass }}<p>{{ .Params.mass }}</p>{{ else }}<p>не указан</p>{{ end }}
           </div>
 
           <div class="col-6 my-4">
