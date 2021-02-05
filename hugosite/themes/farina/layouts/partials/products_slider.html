@@ -9,7 +9,7 @@
         </div>
         <div class="row js-slider">
             {{ range (where site.RegularPages "Type" "products") }}
-            <div class="col-lg-4 col-sm-6 mb-4">
+            <div class="col-lg-4 col-sm-6 col-6 mb-4">
                 <div class="card border-0 text-center">
                     <a href="{{ .Permalink }}">
                         <img src="{{ .Params.mainImage.url | absURL }}" alt="{{ .Title }}" class="card-img-top">
