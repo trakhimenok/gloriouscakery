@@ -11,7 +11,7 @@ mass: около 3 кг.
 price: "80"
 
 ## Product Short Description
-shortDescription: "Для любителей сильно насыщенных шоколадныхначинок"
+shortDescription: "Для любителей сильно насыщенных шоколадных начинок"
 
 ## product ID
 productID: "1"
