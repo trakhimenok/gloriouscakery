@@ -7,6 +7,12 @@
     <div class="row">
       <div class="col-lg-8 mb-4 mb-lg-0">
         <img class="img-fluid w-100" src="{{ .Params.mainImage.url | absURL }}" alt="{{ .Params.mainImage.title }}">
+
+        <p style="margin-top: 1em">
+          Некоторые торты можно оформить по вашему желанию.
+          <br>
+          Есть <a href="{{ .Site.LanguagePrefix }}/decorations" style="color: deeppink">примеры оформления под заказа</a>.
+        </p>
       </div>
       <div class="col-lg-4">
         <!-- rating star -->
@@ -51,6 +57,9 @@
             <s>{{ site.Params.currencySymbol }}{{ .Params.PriceBefore }}</s>
             {{ end }}
             <span class="lead text-primary font-weight-medium">{{ site.Params.currencySymbol }}{{ .Params.Price }}</span>
+            {{ if .Params.bulkPrice }}
+            <p class="lead text-primary font-weight-medium">или {{.Params.bulkPrice}}</p>
+            {{ end }}
           </div>
         </div>
 

@@ -5,20 +5,20 @@ date: 2019-10-17T11:22:16+06:00
 draft: false
 
 ## meta description
-description : "Нежность с нотками вкуса тропиков"
+description : "Нежность с нотками тропиков"
 
 mass:
 price: "60"
 
 ## Product Short Description
-shortDescription: "Нежность с нотками вкуса тропиков"
+shortDescription: "Нежность с нотками тропиков"
 
 ## Type must be "products"
 type: "products"
 
 ## Product Images
 mainImage:
-    url: photos/deserts/strawberry_coconut-2.jpg
+    url: photos/deserts/strawberry_coconut-1.jpg
     title: Торт клубнично-фисташковый
 
 ## Ingredients
@@ -29,4 +29,4 @@ ingredients:
         - Кокосовый патисьер
 ---
 
-Пока нет описания.
+Нежный торт с нотками тропиков.

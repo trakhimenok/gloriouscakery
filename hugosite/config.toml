@@ -9,6 +9,7 @@ disqusShortname = ""
 
 [languages]
   [languages.en]
+  LangCode = "en"
   [languages.en.params]
     home = "Home"
 
@@ -26,6 +27,8 @@ disqusShortname = ""
       URL = "contact"
       weight = 4
   [languages.ru]
+  LangCode = "ru"
+
     [languages.ru.params]
     location = "Лимерик, Ирландия"
     home = "Главная"
@@ -35,6 +38,11 @@ disqusShortname = ""
     name = "Ассортимент"
     URL = "products"
     weight = 1
+
+    [[languages.ru.menu.main]]
+    name = "Декор"
+    URL = "decorations"
+    weight = 2
 
 ############################# Plugins ##############################
 [params.plugins]

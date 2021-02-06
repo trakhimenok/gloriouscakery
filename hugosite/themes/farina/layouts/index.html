@@ -1,5 +1,24 @@
 {{ define "main" }}
 
+<!--=== Hero ===-->
+<div class="hero hero--sm u-bg-p-bottom" style="background-image: url('/farina/img/home/home-hero.jpg');">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-center">
+        <h1 class="hero__title u-font-serif" data-aos="zoom-in" style="color: white">{{ i18n "color_your_day" }}</h1>
+        <p class="hero__subtitle mb-5 blur" data-aos="zoom-in" data-aos-delay="100" style="color: white; backdrop-filter: blur(8px); border-radius: 12px; font-style: italic; font-weight: normal; margin-bottom: -1em">{{ i18n "deserts_by_kseniia_paltseva" }}</p>
+
+        <a href="products" class="btn js-on-page-nav" data-aos="zoom-in" data-aos-delay="100" style="color: white; margin-top: 0.5em;">{{ i18n "browse_products" }}</a>
+        <a href="decorations" class="btn js-on-page-nav" data-aos="zoom-in" data-aos-delay="100" style="color: white; margin-top: 0.5em;">{{ i18n "decor_options" }}</a>
+        {{ if eq $.Site.Params.LangCode "en" }}<a href="/ru/" class="btn" style="color: white; margin-top: 0.5em;">Russian / Русский</a>{{ end}}
+        {{ if eq $.Site.Params.LangCode "ru" }}<a href="/" class="btn" style="color: white; margin-top: 0.5em;">English</a>{{ end}}
+
+      </div>
+    </div>
+  </div>
+</div>
+<!--=== end of Hero ===-->
+
 <!--=== Story ===-->
 {{ if site.Data.homepage.story.enable }}
 {{ with site.Data.homepage.story }}
