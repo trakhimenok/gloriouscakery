@@ -7,8 +7,9 @@ draft: false
 ## meta description
 description : "Вкус знакомый с детства"
 
-mass: 1-3 кг.
-price: "1кг - 25 евро, от 2 кг по 20 евро."
+mass: "от 1 кг."
+
+price: 25/кг
 
 ## Product Short Description
 shortDescription: "Вкус знакомый с детства"

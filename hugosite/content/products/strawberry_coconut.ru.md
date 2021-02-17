@@ -7,7 +7,8 @@ draft: false
 ## meta description
 description : "Нежность с нотками тропиков"
 
-mass:
+mass: около 2 кг.
+
 price: "60"
 
 ## Product Short Description

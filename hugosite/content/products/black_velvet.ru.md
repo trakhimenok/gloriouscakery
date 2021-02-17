@@ -7,8 +7,8 @@ draft: false
 ## meta description
 description : "Бархатная нежность"
 
-mass:
-price: "50"
+mass: около 2 кг.
+price: "60"
 
 ## Product Short Description
 shortDescription: "Бархатная нежность"

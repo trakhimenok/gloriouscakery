@@ -1,5 +1,5 @@
 ---
-title: "Праздничные"
+title: "1. Праздничные"
 kind: "торт"
 date: 2019-10-17T11:22:16+06:00
 draft: false
@@ -29,6 +29,7 @@ images:
     - url: photos/deserts/flamenco1.jpg
     - url: photos/deserts/strawberry_pistachio-1.jpg
     - url: photos/deserts/wedding_anniversary_16_kd.jpg
+    - url: photos/deserts/kirill_lena.jpg
 ---
 
 Так можно оформить торты на день рождения.

@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+<script>
+  if(location.pathname === '/') {
+    console.log('redirecting to Russian version for now');
+    location.pathname = '/ru/'
+  }
+</script>
 <!--=== Hero ===-->
 <div class="hero hero--sm u-bg-p-bottom" style="background-image: url('/farina/img/home/home-hero.jpg');">
   <div class="container">
@@ -11,7 +17,7 @@
         <a href="products" class="btn js-on-page-nav" data-aos="zoom-in" data-aos-delay="100" style="color: white; margin-top: 0.5em;">{{ i18n "browse_products" }}</a>
         <a href="decorations" class="btn js-on-page-nav" data-aos="zoom-in" data-aos-delay="100" style="color: white; margin-top: 0.5em;">{{ i18n "decor_options" }}</a>
         {{ if eq $.Site.Params.LangCode "en" }}<a href="/ru/" class="btn" style="color: white; margin-top: 0.5em;">Russian / Русский</a>{{ end}}
-        {{ if eq $.Site.Params.LangCode "ru" }}<a href="/" class="btn" style="color: white; margin-top: 0.5em;">English</a>{{ end}}
+<!--        {{ if eq $.Site.Params.LangCode "ru" }}<a href="/" class="btn" style="color: white; margin-top: 0.5em;">English</a>{{ end}}-->
 
       </div>
     </div>

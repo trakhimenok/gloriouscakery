@@ -7,8 +7,9 @@ draft: false
 ## meta description
 description : "Произведет яркое впечатление на Вас и ваших близких"
 
-mass: 1-3 кг.
-price: не указана
+mass: 1 штука
+
+price: 25
 
 ## Product Short Description
 shortDescription: "Произведет яркое впечатление на Вас и ваших близких"

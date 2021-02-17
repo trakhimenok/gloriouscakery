@@ -1,29 +1,32 @@
 ---
-title: "Тематические"
+title: "2. С Днём рождения!"
 kind: "торт"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 
 ## meta description
-description : "Тематические"
+description : "С Днём рождения!"
 
 mass: 1-3 кг.
 price: "1кг - 25 евро, от 2 кг по 20 евро."
 
 ## Product Short Description
-shortDescription: "Что придумаете?"
+shortDescription: "для детей"
 
 ## Type must be "decorations"
 type: "decorations"
 
 ## Product Images
 mainImage:
-    url: photos/deserts/sauna-1.jpg
-    title: Торт-пирожное Карамельный Медовик
+    url: photos/deserts/happy_birthday_5y.jpg
 
 images:
-    - url: photos/deserts/sauna-1.jpg
+    - url: photos/deserts/happy_birthday_5y.jpg
+    - url: photos/deserts/birthday_cake.jpg
     - url: photos/deserts/football_club_chelsea.jpg
+    - url: photos/deserts/hb_balloons.jpg
+    - url: photos/deserts/8_nastya.jpg
+    - url: photos/deserts/11_nielse.jpg
 ---
 
 Так можно оформить торты на день рождения.
