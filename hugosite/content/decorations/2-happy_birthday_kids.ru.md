@@ -27,6 +27,22 @@ images:
     - url: photos/deserts/hb_balloons.jpg
     - url: photos/deserts/8_nastya.jpg
     - url: photos/deserts/11_nielse.jpg
+    - url: photos/deserts/bd-pink-masha.jpg
+    - url: photos/deserts/bd-40.jpg
+    - url: photos/deserts/pistachio.jpg
+    - url: photos/deserts/chocolate-blueberries.jpg
+    - url: photos/deserts/hb-12.jpg
+    - url: photos/deserts/hb-half.jpg
+    - url: photos/deserts/velvet-white.jpg
+    - url: photos/deserts/velvet-white-2.jpg
+    - url: photos/deserts/chocolate-flowers-bucket.jpg
+    - url: photos/deserts/chocolate-flowers-bucket-2.jpg
+    - url: photos/deserts/almond-low-cake.jpg
+    - url: photos/deserts/honey-fruits-cake.jpg
+    - url: photos/deserts/hb-11-masha.jpg
+    - url: photos/deserts/white-flow.jpg
+    - url: photos/deserts/bd-muffins.jpg
+    - url: photos/deserts/
 ---
 
 Так можно оформить торты на день рождения.

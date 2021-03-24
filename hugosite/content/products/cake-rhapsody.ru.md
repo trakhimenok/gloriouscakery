@@ -8,7 +8,7 @@ draft: false
 description : "Пирожное Осенняя рапсодия"
 
 mass: 1 штука
-price: "3.50"
+price: "4.50"
 
 ## Product Short Description
 shortDescription: "Для любителей сильно насыщенных шоколадных начинок"
