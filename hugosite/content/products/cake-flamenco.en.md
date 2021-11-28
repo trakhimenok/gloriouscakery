@@ -22,13 +22,12 @@ type: "products"
 
 ## Product Images
 mainImage:
-    url: images/products/deserts/flamenco1.jpg
+    url: photos/deserts/flamenco1.jpg
     title: Торт Фламенко
 
 images:
-    - url: "images/products/deserts/flamenco_cut.jpg"
+    - url: photos/deserts/flamenco_cut.jpg
       title: Кусок торта Фламенко
-
 
 ## Ingredients
 ingredients:

@@ -1,5 +1,5 @@
 ---
-title: "Клубнично-фисташковый"
+title: "Strawberry pistachio"
 kind: "торт"
 date: 2019-10-17T11:22:16+06:00
 draft: false
@@ -18,12 +18,12 @@ type: "products"
 
 ## Product Images
 mainImage:
-url: images/products/deserts/flamenco1.jpg
-title: Торт Фламенко
+    url: photos/deserts/strawberry_pistachio-1.jpg
+    title: Торт клубнично-фисташковый
 
 images:
-- url: "images/products/deserts/flamenco_cut.jpg"
-  title: Кусок торта Фламенко
+    - url: photos/deserts/strawberry_pistachio-cut.jpg
+      title: Кусок клубнично-фисташкового торта
 
 ## Ingredients
 ingredients:
